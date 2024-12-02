@@ -1,33 +1,22 @@
 use std::fs::File;
 use std::io::{self, BufRead};
-use std::usize;
 
 /*
- Now, given the same instructions, find the position of the first character that causes him to
- enter the basement (floor -1). The first character in the instructions has position 1, the second
- character has position 2, and so on.
+ *An opening parenthesis, (, means he should go up one floor, and a closing parenthesis, ), means
+ he should go down one floor.
+ *
+ */
 
-For example:
-    ) causes him to enter the basement at character position 1.
-    ()()) causes him to enter the basement at character position 5.
-    What is the position of the character that causes Santa to first enter the basement?*
-
-*/
-
-fn find_idx_of_negative_floor(paranthesis_list: &Vec<char>) -> usize {
+fn find_destination_floor(paranthesis_list: &Vec<char>) -> i32 {
     let mut current_floor = 0;
-    for (i, &par) in paranthesis_list.iter().enumerate(){
+    for &par in paranthesis_list{
         if par == '('{
             current_floor += 1;
         }else {
             current_floor -= 1;
         }
-        
-        if current_floor == -1 {
-            return i+1;
-        }
     }
-    0
+    current_floor
 }
 
 fn main() {
@@ -51,8 +40,8 @@ fn main() {
 
             // Convert the first line into a vector of characters
             let list_of_paranthesis: Vec<char> = first_line.chars().collect();
-            let idx = find_idx_of_negative_floor(&list_of_paranthesis);
-            println!("first negative floor idx: {}", idx);
+            let floor = find_destination_floor(&list_of_paranthesis);
+            println!("floor is {}", floor);
         }
         Err(e) => {
             eprintln!("Error reading the first line: {}", e);
