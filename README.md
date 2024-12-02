@@ -1,6 +1,7 @@
 # Advent of Code 2024
 
 This repository contains my solutions to the [Advent of Code 2024](https://adventofcode.com/2024) challenges.
+```bash
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⣞⣓⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -22,6 +23,8 @@ This repository contains my solutions to the [Advent of Code 2024](https://adven
 ⢯⡀⠤⠒⢆⠀⠀⢀⣄⢀⡤⢶⡤⠒⡆⡠⠶⡀⢀⠞⠁⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠈⠓⠋⠀⡏⠀⠀⠀⠀⠀⡇⠁⠀⠀⠉⠁⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠒⠒⠒⠖⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+```
+```bash
 
 ⢰⠛⠳⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⡀⠀⠀⠀⠀⠀⠀
 ⢸⣆⠀⠹⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡾⠋⠀⣿⠀⠀⠀⠀⠀⠀
@@ -45,6 +48,7 @@ This repository contains my solutions to the [Advent of Code 2024](https://adven
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⠃⠀⠀⣾⠀⠀⠀⠀⢀⡇⠀⠀⡟⠀⠀⠀⣿⠀⠈⣇
 ⠀⠀⠀⠀⠀⠀⠀⠀⣼⠃⠀⠀⣰⠇⠀⠀⠀⢀⡾⠀⠀⣼⠃⠀⠀⢀⡟⠀⠀⣿
 ⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠛⠋⠀⠀⠀⠀⠈⠛⠛⠛⠡⠬⠥⠽⠾⣥⣀⣀⡿
+```
 ## Repository Structure
 
 The repository is organized by day, with each day containing solutions for both parts of the challenge:
